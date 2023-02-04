@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 70px 10px 70px;
+}
+.header{
+    display: flex;
+}
+
+.header img{
+    height: 70px;
+    width: 100px;
+    object-fit: cover;
+}

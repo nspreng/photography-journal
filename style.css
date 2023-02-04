@@ -34,7 +34,7 @@ a:hover{
     color: #565144;
 }
 
-.content-one{
+.c{
     display: flex;
     margin: 10px 70px 10px 70px;
     box-sizing: border-box;
@@ -44,16 +44,6 @@ a:hover{
     display: flex;
     flex-direction: column;
     padding: 16px;
-}
-
-.content-one .column.two{
-    width: 40%;
-}
-.content-one .column.one{
-    width: 20%;
-}
-.content-one .column.three{
-    width: 20%;
 }
 
 .column img{
@@ -66,3 +56,25 @@ a img{
 .column:hover img{
     opacity: 0.6;
 }
+
+.content-one .column.one{
+    width: 20%;
+}
+.content-one .column.two{
+    width: 40%;
+}
+.content-one .column.three{
+    width: 20%;
+}
+.content-two .column.one{
+    width: 30%;
+    gap: 16px;
+}
+.content-two .column.two{
+    width: 30%
+}
+.content-two .column.three{
+    width: 25%
+}
+
+
